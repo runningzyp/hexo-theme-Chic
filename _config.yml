@@ -1,22 +1,22 @@
 # Header
-navname: Bentham's Blog
+navname: 香菜的后花园
 
 # navigatior items
 nav:
   Posts: /archives
   Categories: /category
-  Tags: /tag
+  Tags: /tags
   About: /about
 
 # favicon
 favicon: /favicon.ico
 
 # Profile
-nickname: Jeremy Bentham
+nickname: Xiangcai
 
 ### this variable is MarkDown form.
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: /image/avatar.jpeg
+description: 我们所经历的每个平凡的 **日常**,也许就是连续发生的 **奇迹**. <br> ——日々私たちが过ごしている日常は、実は、奇迹の连続なのかもしれな.
+avatar: /image/yuuko.png
 
 # main menu navigation
 ## links key words should not be changed.
@@ -25,15 +25,15 @@ avatar: /image/avatar.jpeg
 links:
   Blog: /archives
   # Category:
-  # Tags: 
-  # Link:
+  # Tags:
+  Link:
   # Resume:
   # Publish:
   # Trophy:
   # Gallery:
   # RSS:
   # AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+  # ZhiHu:
   # LinkedIn:
   # FaceBook:
   # Twitter:
@@ -43,13 +43,13 @@ links:
   # Sketch:
   # Gitlab:
   # Dribbble:
-  Instagram:
-  Reddit:
+  # Instagram:
+  # Reddit:
   # YouTube:
   # QQ:
   # Weibo:
   # WeChat:
-  Github: https://github.com/Siricee
+  Github: https://github.com/runningzyp
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
@@ -94,7 +94,6 @@ scripts:
   - /js/tocbot.min.js
     # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
     # https://github.com/tscanlin/tocbot
-
 
 # plugin functions
 ## Mathjax: Math Formula Support
