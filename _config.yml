@@ -87,11 +87,16 @@ time_format: H:mm:ss
 # stylesheets loaded in the <head>
 stylesheets:
   - /css/style.css
-  # - /css/table.css
+  - /css/ocean.css
 # scripts loaded in the end of the body
 scripts:
   - /js/script.js
   - /js/tocbot.min.js
+  - /js/jquery.js
+  - /js/highlight.js
+  - /js/highlight-line-number.js
+  - /js/clipboard.js
+  - /js/ready.js
     # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
     # https://github.com/tscanlin/tocbot
 
