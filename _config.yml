@@ -5,7 +5,7 @@ navname: 香菜的后花园
 nav:
   Posts: /archives
   Categories: /category
-  Tags: /tags
+  Tags: /tag
   About: /about
 
 # favicon
@@ -87,7 +87,7 @@ time_format: H:mm:ss
 # stylesheets loaded in the <head>
 stylesheets:
   - /css/style.css
-
+  # - /css/table.css
 # scripts loaded in the end of the body
 scripts:
   - /js/script.js

@@ -92,14 +92,104 @@
     max-width 100%
     margin 10px 0
     border-spacing 0
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-size: 12px;
+    text-shadow: 1px 1px 0px #fff;
+    background: #eaebec;
+    border: #ccc 1px solid;
+    max-width: 60%;
+    width: 60%;
+    // margin-left: 20%;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 2px #d1d1d1;
+    -webkit-box-shadow: 0 1px 2px #d1d1d1;
+    box-shadow: 3px 4px 8px 0px #d1d1d1;
+    .dark-theme &
+        box-shadow: 0px 0px 0px 0px #d1d1d1
+        border: 0px;
     thead
       background $light-post-table-background-color
       .dark-theme &
         background $dark-post-table-background-color
+      th, td
+        text-transform: uppercase;
+        font-family: Lato-Bold;
+        font-size: 15px;
+        .dark-theme &
+          color: #00ad5f; 
+          // line-height: 2;
+          background-color: #393939;
+          text-shadow 0px 0px 0px #fff
+          border: 0px
+    tbody
+      &:before
+        max-height: 585px;
+      height: 100px;       /* Just for the demo          */
+      overflow-y: auto;    /* Trigger vertical scroll    */
+      overflow-x: hidden; 
+      td
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #e0e0e0;
+        border-left: 1px solid #e0e0e0;
+        .dark-theme &
+          // font-family: Lato-Regular;
+          // font-size: 15px;
+          color: #808080;
+          // line-height: 1.4;
+          background-color: #222222;
+          background:#222222;
+          border: 0px  
+          text-shadow: 0px 0px 0px
     th, td
+      &:first-child
+        text-align: left;
+        padding-left: 20px;
       padding 5px 15px
-      border .5px solid $light-border-color
+    th
+      border-top: 1px solid #fafafa;
+      border-bottom: 1px solid #e0e0e0;
+    a
+      &:hover
+      &:active
+        color: #bd5a35;
+        text-decoration: underline
+      &:link
+        color: #666;
+        font-weight: bold;
+        text-decoration: none;
+      .dark-theme
+        &:link
+          color $dark-post-link-color
+    tr
+      text-align: center;
+      padding-left: 20px;
+      &:hover td
+        background: #f2f2f2;
+        background: -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          from(#f2f2f2),
+          to(#f0f0f0)
+        );
+        background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+      .dark-theme &:hover td
+          background: #393939 ;
 
+    td
+      background: #fafafa;
+      background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#fbfbfb),
+      to(#fafafa)
+      );
+      background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
 
   .image-caption:not(:empty)
     min-width 20%
