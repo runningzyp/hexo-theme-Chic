@@ -87,7 +87,7 @@ time_format: H:mm:ss
 # stylesheets loaded in the <head>
 stylesheets:
   - /css/fonts.css
-#   - /css/stylesheet.css
+  #   - /css/stylesheet.css
   - /css/style.css
   - /css/ocean.css
   - /css/about.css
@@ -102,6 +102,7 @@ scripts:
   - /js/clipboard.js
   - /js/ready.js
   - /js/ribbon.min.js
+  - /js/analytics.js
     # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
     # https://github.com/tscanlin/tocbot
 
