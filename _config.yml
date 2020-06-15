@@ -87,6 +87,7 @@ time_format: H:mm:ss
 # stylesheets loaded in the <head>
 stylesheets:
   - /css/fonts.css
+#   - /css/stylesheet.css
   - /css/style.css
   - /css/ocean.css
   - /css/about.css
