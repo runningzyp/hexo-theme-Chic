@@ -7,11 +7,13 @@
   margin: 0px;
   padding: 0px;
 }
-
+/* 
 ::selection {
-  background: transparent;
+  background: transparent !important;
 }
-
+::-moz-selection {
+  background: transparent !important;
+} */
 .about-body h4 {
   font-size: 26px;
   line-height: 1px;
